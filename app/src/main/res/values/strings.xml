@@ -1,0 +1,27 @@
+<resources>
+    <!-- insert API key here -->
+    <string name="moviedb_api_key" translatable="false"></string>
+
+    <string name="app_name">Project1Stage2</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_header_general">General</string>
+
+    <!-- Sort Movie Preference Settings -->
+    <string name="pref_title_sort_by">Sort Movies By</string>
+    <string name="pref_sort_by_key">sort</string>
+    <string name="pref_sort_by_default">popularity.desc</string>
+    <string-array name="pref_sort_list_titles">
+        <item>Popularity</item>
+        <item>Highest Rated</item>
+        <item>Favorites</item>
+    </string-array>
+    <string-array name="pref_sort_list_values">
+        <item>popularity.desc</item>
+        <item>vote_average.desc</item>
+        <item>favorites</item>
+    </string-array>
+</resources>
